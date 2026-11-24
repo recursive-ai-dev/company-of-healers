@@ -1,0 +1,11 @@
+{
+  "name": "company-of-healers",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Company of Healers — a dark fantasy strategy of mercy (no build step, no dependencies)",
+  "scripts": {
+    "test": "node --test tests/util.test.js tests/data.test.js",
+    "start": "python3 -m http.server 8000"
+  }
+}
